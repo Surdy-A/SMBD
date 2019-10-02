@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+import requests
 # Create your views here.
 from django.views.generic import ListView, DetailView
 from django.views.generic.dates import YearArchiveView
